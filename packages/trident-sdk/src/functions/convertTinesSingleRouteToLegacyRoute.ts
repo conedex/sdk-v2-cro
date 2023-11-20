@@ -1,9 +1,5 @@
-import { Currency, Pair, Route } from '@sushiswap/core-sdk'
-import {
-
-  MultiRoute,
-
-} from '@sushiswap/tines'
+import { Currency, Pair, Route } from '@fragmentation/core-sdk'
+import { MultiRoute } from '@fragmentation/tines'
 
 export function convertTinesSingleRouteToLegacyRoute<TInput extends Currency, TOutput extends Currency>(
   route: MultiRoute,

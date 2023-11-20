@@ -35,4 +35,6 @@ export enum ChainId {
   METIS = 1088,
   ARBITRUM_NOVA = 42170,
   BOBA_AVAX = 43288,
+  CRONOS = 25,
+  CRONOS_TESTNET = 338,
 }

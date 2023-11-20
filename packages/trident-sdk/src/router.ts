@@ -1,7 +1,7 @@
-import { Percent, CurrencyAmount, Currency, validateAndParseAddress, TradeType } from '@sushiswap/core-sdk'
+import { Percent, CurrencyAmount, Currency, validateAndParseAddress, TradeType } from '@fragmentation/core-sdk'
 import { Trade } from './entities/Trade'
 import invariant from 'tiny-invariant'
-import { RouteLeg } from '@sushiswap/tines'
+import { RouteLeg } from '@fragmentation/tines'
 
 /**
  * Options for producing the arguments to send call to the router.
@@ -50,23 +50,23 @@ export abstract class Router {
    */
   private constructor() {}
 
-  // public type(route: MultiRoute) { 
+  // public type(route: MultiRoute) {
   //   if(route.legs.length === 1){
   //     return RouteType.SinglePool;
   //   }
-  
+
   //   const routeInputTokens = multiRoute.legs.map(function (leg) { return leg.tokenFrom.address});
-  
+
   //   if((new Set(routeInputTokens)).size === routeInputTokens.length){
   //     return RouteType.SinglePath;
   //   }
-  
+
   //   if((new Set(routeInputTokens)).size !== routeInputTokens.length){
   //     return RouteType.ComplexPath;
   //   }
-  
+
   //   return "unknown";
-  // } 
+  // }
 
   /**
    * Produces the on-chain method name to call and the hex encoded parameters to pass as arguments for a given trade.

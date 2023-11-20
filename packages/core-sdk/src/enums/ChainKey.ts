@@ -34,4 +34,6 @@ export enum ChainKey {
   METIS = 'metis',
   ARBITRUM_NOVA = 'arbitrum-nova',
   BOBA_AVAX = 'boba-avax',
+  CRONOS = 'cronos',
+  CRONOS_TESTNET = 'cronos-testnet',
 }

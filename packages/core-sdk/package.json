@@ -1,6 +1,6 @@
 {
-  "name": "@sushiswap/core-sdk",
-  "version": "1.0.0-canary.138",
+  "name": "@fragmentation/core-sdk",
+  "version": "1.0.0-canary.140",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

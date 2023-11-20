@@ -1,6 +1,6 @@
 {
-  "name": "@sushiswap/kashi-sdk",
-  "version": "1.0.0-canary.110",
+  "name": "@fragmentation/kashi-sdk",
+  "version": "1.0.0-canary.114",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -26,7 +26,8 @@
   "dependencies": {
     "@ethersproject/abi": "^5.4.0",
     "@ethersproject/contracts": "^5.4.0",
-    "@sushiswap/bentobox-sdk": "1.0.0-canary.119"
+    "@fragmentation/bentobox-sdk": "^1.0.0-canary.122",
+    "@fragmentation/core-sdk": "^1.0.0-canary.139"
   },
   "devDependencies": {
     "tsdx": "^0.14.1"

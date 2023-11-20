@@ -1,4 +1,4 @@
-import { JSBI, ChainId, AddressMap } from '@sushiswap/core-sdk'
+import { JSBI, ChainId, AddressMap } from '@fragmentation/core-sdk'
 
 export const A_PRECISION = JSBI.BigInt(100)
 export const MAX_FEE = JSBI.BigInt(10000)

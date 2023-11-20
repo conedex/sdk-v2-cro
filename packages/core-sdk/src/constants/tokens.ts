@@ -26,6 +26,7 @@ export const USDC: TokenMap = {
   [ChainId.KAVA]: new Token(ChainId.KAVA, USDC_ADDRESS[ChainId.KAVA], 6, 'USDC', 'USD Coin'),
   [ChainId.METIS]: new Token(ChainId.METIS, USDC_ADDRESS[ChainId.METIS], 6, 'USDC', 'USD Coin'),
   [ChainId.ARBITRUM_NOVA]: new Token(ChainId.ARBITRUM_NOVA, USDC_ADDRESS[ChainId.ARBITRUM_NOVA], 6, 'USDC', 'USD Coin'),
+  [ChainId.CRONOS]: new Token(ChainId.CRONOS, USDC_ADDRESS[ChainId.CRONOS], 6, 'USDC', 'USD Coin'),
 }
 
 export const USD: TokenMap = {
@@ -72,6 +73,14 @@ export const WETH9: TokenMap = {
   [ChainId.ARBITRUM_NOVA]: new Token(
     ChainId.ARBITRUM_NOVA,
     WETH9_ADDRESS[ChainId.ARBITRUM_NOVA],
+    18,
+    'WETH',
+    'Wrapped Ether'
+  ),
+  [ChainId.CRONOS]: new Token(ChainId.CRONOS, WETH9_ADDRESS[ChainId.CRONOS], 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.CRONOS_TESTNET]: new Token(
+    ChainId.CRONOS_TESTNET,
+    WETH9_ADDRESS[ChainId.CRONOS_TESTNET],
     18,
     'WETH',
     'Wrapped Ether'
@@ -167,6 +176,8 @@ export const WNATIVE: TokenMap = {
   [ChainId.METIS]: new Token(ChainId.METIS, WNATIVE_ADDRESS[ChainId.METIS], 18, 'WMETIS', 'Wrapped Metis'),
   [ChainId.ARBITRUM_NOVA]: WETH9[ChainId.ARBITRUM_NOVA],
   [ChainId.BOBA_AVAX]: new Token(ChainId.BOBA_AVAX, WNATIVE_ADDRESS[ChainId.BOBA_AVAX], 18, 'WBOBA', 'Wrapped Boba'),
+  [ChainId.CRONOS]: WETH9[ChainId.CRONOS],
+  [ChainId.CRONOS_TESTNET]: WETH9[ChainId.CRONOS_TESTNET],
 }
 
 export const SUSHI: ChainTokenMap = {
@@ -191,4 +202,12 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, SUSHI_ADDRESS[ChainId.MOONBEAM], 18, 'SUSHI', 'SushiToken'),
   [ChainId.KAVA]: new Token(ChainId.KAVA, SUSHI_ADDRESS[ChainId.KAVA], 18, 'SUSHI', 'SushiToken'),
   [ChainId.METIS]: new Token(ChainId.METIS, SUSHI_ADDRESS[ChainId.METIS], 18, 'SUSHI', 'SushiToken'),
+  [ChainId.CRONOS]: new Token(ChainId.CRONOS, SUSHI_ADDRESS[ChainId.CRONOS], 18, 'SUSHI', 'SushiToken'),
+  [ChainId.CRONOS_TESTNET]: new Token(
+    ChainId.CRONOS_TESTNET,
+    SUSHI_ADDRESS[ChainId.CRONOS_TESTNET],
+    18,
+    'SUSHI',
+    'SushiToken'
+  ),
 }

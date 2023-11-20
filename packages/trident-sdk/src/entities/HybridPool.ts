@@ -1,4 +1,4 @@
-import { CurrencyAmount, InsufficientInputAmountError, Price, Token, ZERO } from '@sushiswap/core-sdk'
+import { CurrencyAmount, InsufficientInputAmountError, Price, Token, ZERO } from '@fragmentation/core-sdk'
 import { computeHybridLiquidity, computeHybridPoolAddress } from '../functions'
 
 import { A_PRECISION } from '../constants'
